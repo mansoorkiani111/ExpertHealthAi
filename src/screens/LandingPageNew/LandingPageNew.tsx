@@ -25,12 +25,12 @@ import { TestimonialsSection } from "./sections/TestimonialsSection";
 export const LandingPageNew = (): JSX.Element => {
   return (
     <div
-      className="flex flex-col items-center gap-3 xs:gap-4 sm:gap-6 md:gap-8 relative bg-white overflow-hidden w-full min-w-[320px]"
+      className="flex flex-col items-center gap-6 xs:gap-8 sm:gap-10 md:gap-12 relative bg-white overflow-hidden w-full min-w-[320px]"
       data-model-id="1:4"
     >
       <OverviewSection />
 
-      <Card className="w-full max-w-[387px] px-3 xs:px-4 sm:px-0 bg-white border-none shadow-none">
+      <Card className="w-full max-w-[387px] px-3 xs:px-4 sm:px-0 bg-white border-none shadow-none mt-4 sm:mt-6">
         <CardContent className="p-0">
           <p className="font-['Poppins',Helvetica] font-normal text-black text-base text-center">
             ExpertAI revolutionizes medical documentation, saving up to 2 hours
@@ -45,7 +45,7 @@ export const LandingPageNew = (): JSX.Element => {
       <InstructionsSection />
       <SOAPSection />
 
-      <div className="flex flex-wrap justify-center items-center gap-2 xs:gap-3 w-full px-3 xs:px-4 sm:px-0">
+      <div className="flex flex-wrap justify-center items-center gap-2 xs:gap-3 w-full px-3 xs:px-4 sm:px-0 mt-6 sm:mt-8">
         <Button className="w-[107px] h-10 rounded bg-[#437eeb] font-['Poppins',Helvetica] font-bold text-white text-xs">
           Sign Up Now
         </Button>
@@ -62,7 +62,7 @@ export const LandingPageNew = (): JSX.Element => {
 
       <HowExpertAiHelpsSection />
 
-      <div className="flex flex-wrap justify-center items-center gap-2 xs:gap-3 w-full px-3 xs:px-4 sm:px-0 max-w-[400px] sm:max-w-none">
+      <div className="flex flex-wrap justify-center items-center gap-2 xs:gap-3 w-full px-3 xs:px-4 sm:px-0 max-w-[400px] sm:max-w-none mt-6 sm:mt-8">
         <Button className="w-[107px] h-10 rounded bg-[#437eeb] font-['Poppins',Helvetica] font-bold text-white text-xs">
           Sign Up Now
         </Button>

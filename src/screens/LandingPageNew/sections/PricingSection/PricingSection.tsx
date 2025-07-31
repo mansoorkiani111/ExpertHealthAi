@@ -41,20 +41,20 @@ export const PricingSection = (): JSX.Element => {
 
           <ToggleGroupItem
             value="yearly"
-            className={`w-[107px] h-10 rounded font-poppins text-[13px] ${
+            className={`min-w-[180px] h-10 rounded font-poppins text-xs sm:text-sm ${
               billingCycle === "yearly"
                 ? "bg-[#437eeb] text-white font-bold"
                 : "bg-transparent font-normal before:content-[''] before:absolute before:inset-0 before:p-px before:rounded before:[background:linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude] before:z-[1] before:pointer-events-none"
             }`}
           >
             <span
-              className={
+              className={`whitespace-nowrap ${
                 billingCycle !== "yearly"
                   ? "bg-[linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent]"
                   : ""
-              }
+              }`}
             >
-              Yearly
+              <b>Yearly</b>-SAVE 20% | MONTHLY
             </span>
           </ToggleGroupItem>
         </ToggleGroup>

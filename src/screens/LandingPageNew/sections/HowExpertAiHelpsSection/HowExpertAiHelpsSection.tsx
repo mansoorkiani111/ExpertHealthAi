@@ -33,7 +33,7 @@ export const HowExpertAiHelpsSection = (): JSX.Element => {
           {statsCards[0].isLarge && (
             <div className="flex justify-center w-full">
               <Card className="w-full bg-white relative shadow-[0px_4px_4px_#00000040] rounded-[10px] border-0 overflow-hidden">
-                <CardContent className="flex flex-col items-center justify-center p-3">
+                <CardContent className="flex flex-col items-center justify-center p-3 h-full min-h-[120px]">
                   <p className="text-xs xs:text-sm text-[#4d4d4d] [font-family:'Poppins',Helvetica] text-center leading-tight">
                     {statsCards[0].title}
                   </p>
@@ -48,13 +48,13 @@ export const HowExpertAiHelpsSection = (): JSX.Element => {
           {/* Second row with two smaller cards */}
           <div className="flex gap-2 xs:gap-3 w-full">
             {statsCards.slice(1).map((card, index) => (
-              <div key={index} className="flex-1 min-w-0">
-                <Card className="w-full h-auto min-h-[90px] xs:min-h-[101px] bg-white relative shadow-[0px_4px_4px_#00000040] rounded-[10px] border-0 overflow-hidden">
-                  <CardContent className="flex flex-col items-center justify-center p-2 xs:p-3 h-full">
-                    <p className="text-[10px] xs:text-xs text-[#4d4d4d] [font-family:'Poppins',Helvetica] text-center leading-tight px-1">
+              <div key={index} className="flex-1 min-w-0 flex">
+                <Card className="w-full bg-white relative shadow-[0px_4px_4px_#00000040] rounded-[10px] border-0 overflow-hidden flex-1">
+                  <CardContent className="flex flex-col items-center justify-center p-2 h-full min-h-[90px] xs:min-h-[101px]">
+                    <p className="text-[10px] xs:text-xs text-[#4d4d4d] [font-family:'Poppins',Helvetica] text-center leading-tight w-full px-1">
                       {card.title}
                     </p>
-                    <p className="text-2xl xs:text-3xl font-bold text-[#437eeb] [font-family:'Poppins',Helvetica] text-center leading-none mt-1">
+                    <p className="text-2xl xs:text-3xl font-bold text-[#437eeb] [font-family:'Poppins',Helvetica] text-center leading-none mt-1 w-full">
                       {card.value}
                     </p>
                   </CardContent>

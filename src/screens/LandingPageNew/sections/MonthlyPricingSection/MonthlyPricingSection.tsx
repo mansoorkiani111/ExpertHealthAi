@@ -14,12 +14,6 @@ export const MonthlyPricingSection = (): JSX.Element => {
       <Card className="flex flex-col w-[350px] min-h-[445px] items-center relative rounded-[20px] overflow-hidden border-[none] shadow-[0px_4px_4px_#00000040] before:content-[''] before:absolute before:inset-0 before:p-px before:rounded-[20px] before:[background:linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_50%,rgba(67,126,235,1)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude] before:z-[1] before:pointer-events-none">
         {/* Header Section with Price */}
         <div className="relative w-full h-[164px] overflow-hidden [background:url(https://c.animaapp.com/mdq1kflvOGBUYm/img/featured-1.png)_50%_50%_/_cover,linear-gradient(0deg,rgba(49,62,91,1)_0%,rgba(49,62,91,1)_100%)] px-4">
-          {/* Featured Badge - Added to match yearly card */}
-          <div className="absolute top-5 right-0 translate-x-1/3 -translate-y-1/3 w-[170px] h-[70px] bg-[#437eeb] rotate-45 flex items-center justify-center z-10 shadow-lg">
-            <span className="text-white font-medium text-sm select-none">
-              Featured
-            </span>
-          </div>
 
           {/* Price and Description */}
           <div className="flex flex-col items-center justify-center h-full relative z-10">
