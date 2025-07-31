@@ -1,0 +1,1 @@
+export { LandingPageNew } from "./LandingPageNew";
