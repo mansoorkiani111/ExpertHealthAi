@@ -21,7 +21,6 @@ import { SOAPSection } from "./sections/SOAPSection";
 import { StepByStepSection } from "./sections/StepByStepSection";
 import { StepWrapperSection } from "./sections/StepWrapperSection";
 import { TestimonialsSection } from "./sections/TestimonialsSection";
-import { YearlyPricingSection } from "./sections/YearlyPricingSection";
 
 export const LandingPageNew = (): JSX.Element => {
   return (
@@ -85,7 +84,6 @@ export const LandingPageNew = (): JSX.Element => {
       <ContentSection />
       <CallToActionSection />
       <PricingSection />
-      <YearlyPricingSection />
       <EnterprisePlanSection />
       <AccessSection />
       <TestimonialsSection />

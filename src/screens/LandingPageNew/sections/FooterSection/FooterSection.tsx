@@ -1,16 +1,14 @@
-
-
 export const FooterSection = (): JSX.Element => {
   // Contact information data
   const contactInfo = [
-    { label: "Contact Us", value: "" },
-    { label: "Phone:", value: "+1 888 555 1234" },
-    { label: "Email:", value: "support@expertai.com" },
-    {
-      label: "Address:",
-      value: "123 Medical Tech Lane,\nSan Francisco, CA 94105, USA",
-      multiline: true,
-    },
+    // { label: "Contact Us", value: "" },
+    // { label: "Phone:", value: "+1 888 555 1234" },
+    { label: "Email:", value: "contact@experthealth.ai" },
+    // {
+    //   label: "Address:",
+    //   value: "123 Medical Tech Lane,\nSan Francisco, CA 94105, USA",
+    //   multiline: true,
+    // },
   ];
 
   return (

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -30,6 +30,18 @@ export const TestimonialsSection = (): JSX.Element => {
       fontFamily: "Inter",
     },
   ];
+
+  // Scroll to the middle card on component mount
+  useEffect(() => {
+    if (scrollContainer.current) {
+      // Calculate the scroll position to center the second card
+      const container = scrollContainer.current;
+      const scrollWidth = container.scrollWidth;
+      const containerWidth = container.clientWidth;
+      // Scroll to center the second card
+      container.scrollLeft = (scrollWidth - containerWidth) / 2;
+    }
+  }, []);
 
   return (
     <section className="flex flex-col items-center gap-6 xs:gap-8 px-3 xs:px-4 py-10 xs:py-12 w-full md:px-6 lg:px-[75px] max-w-screen-2xl mx-auto">
