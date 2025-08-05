@@ -53,9 +53,11 @@ export const YearlyPricingSection = (): JSX.Element => {
             </div>
           </div>
 
-          <Button className="w-[180px] h-12 rounded-lg bg-[#437eeb] hover:bg-[#3a6fcf] text-white font-bold text-sm transition-colors">
-            Sign Up Now
-          </Button>
+          <a href="https://experthealth.ai/contact-us/" target="_blank" rel="noopener noreferrer" className="no-underline">
+            <Button className="w-[180px] h-12 rounded-lg bg-[#437eeb] hover:bg-[#3a6fcf] text-white font-bold text-sm transition-colors">
+              Contact Us
+            </Button>
+          </a>
         </CardContent>
       </Card>
     </div>

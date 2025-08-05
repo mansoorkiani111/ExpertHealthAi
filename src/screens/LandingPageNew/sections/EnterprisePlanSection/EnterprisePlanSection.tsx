@@ -21,9 +21,11 @@ export const EnterprisePlanSection = (): JSX.Element => {
           </p>
         </div>
 
-        <Button className="relative w-[107px] h-10 bg-[#437eeb] rounded font-['Poppins',Helvetica] font-bold text-white text-xs">
-          Contact Now
-        </Button>
+        <a href="https://experthealth.ai/contact-us/" target="_blank" rel="noopener noreferrer" className="no-underline">
+          <Button className="relative w-[107px] h-10 bg-[#437eeb] rounded font-['Poppins',Helvetica] font-bold text-white text-xs">
+            Contact Now
+          </Button>
+        </a>
       </CardContent>
     </Card>
   );

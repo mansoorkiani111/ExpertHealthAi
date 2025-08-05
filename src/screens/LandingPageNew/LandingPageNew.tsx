@@ -46,35 +46,43 @@ export const LandingPageNew = (): JSX.Element => {
       <SOAPSection />
 
       <div className="flex flex-wrap justify-center items-center gap-2 xs:gap-3 w-full px-3 xs:px-4 sm:px-0 mt-6 sm:mt-8">
-        <Button className="w-[107px] h-10 rounded bg-[#437eeb] font-['Poppins',Helvetica] font-bold text-white text-xs">
-          Sign Up Now
-        </Button>
+        <a href="https://app.experthealth.ai/sign-up" target="_blank" rel="noopener noreferrer" className="no-underline">
+          <Button className="w-[107px] h-10 rounded bg-[#437eeb] font-['Poppins',Helvetica] font-bold text-white text-xs">
+            Sign Up Now
+          </Button>
+        </a>
 
-        <Button
-          variant="outline"
-          className="w-[107px] h-10 rounded font-['Poppins',Helvetica] font-normal text-[13px] border-none relative before:content-[''] before:absolute before:inset-0 before:p-px before:rounded before:[background:linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude] before:z-[1] before:pointer-events-none"
-        >
-          <span className="bg-[linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent]">
-            Schedule Demo
-          </span>
-        </Button>
+        <a href="https://calendly.com/contact-experthealth/expert-ai_-product-demo?month=2025-02" target="_blank" rel="noopener noreferrer" className="no-underline">
+          <Button
+            variant="outline"
+            className="w-[107px] h-10 rounded font-['Poppins',Helvetica] font-normal text-[13px] border-none relative before:content-[''] before:absolute before:inset-0 before:p-px before:rounded before:[background:linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude] before:z-[1] before:pointer-events-none"
+          >
+            <span className="bg-[linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent]">
+              Schedule Demo
+            </span>
+          </Button>
+        </a>
       </div>
 
       <HowExpertAiHelpsSection />
 
       <div className="flex flex-wrap justify-center items-center gap-2 xs:gap-3 w-full px-3 xs:px-4 sm:px-0 max-w-[400px] sm:max-w-none mt-6 sm:mt-8">
-        <Button className="w-[107px] h-10 rounded bg-[#437eeb] font-['Poppins',Helvetica] font-bold text-white text-xs">
-          Sign Up Now
-        </Button>
+        <a href="https://app.experthealth.ai/sign-up" target="_blank" rel="noopener noreferrer" className="no-underline">
+          <Button className="w-[107px] h-10 rounded bg-[#437eeb] font-['Poppins',Helvetica] font-bold text-white text-xs">
+            Sign Up Now
+          </Button>
+        </a>
 
-        <Button
-          variant="outline"
-          className="w-[107px] h-10 rounded font-['Poppins',Helvetica] font-normal text-[13px] border-none relative before:content-[''] before:absolute before:inset-0 before:p-px before:rounded before:[background:linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude] before:z-[1] before:pointer-events-none"
-        >
-          <span className="bg-[linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent]">
-            Schedule Demo
-          </span>
-        </Button>
+        <a href="https://calendly.com/contact-experthealth/expert-ai_-product-demo?month=2025-02" target="_blank" rel="noopener noreferrer" className="no-underline">
+          <Button
+            variant="outline"
+            className="w-[107px] h-10 rounded font-['Poppins',Helvetica] font-normal text-[13px] border-none relative before:content-[''] before:absolute before:inset-0 before:p-px before:rounded before:[background:linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude] before:z-[1] before:pointer-events-none"
+          >
+            <span className="bg-[linear-gradient(90deg,rgba(67,126,235,1)_0%,rgba(96,47,230,1)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent]">
+              Schedule Demo
+            </span>
+          </Button>
+        </a>
       </div>
 
       <HowExpertAiWorksSection />
@@ -97,10 +105,12 @@ export const LandingPageNew = (): JSX.Element => {
           />
         </div>
 
-        <Button className="inline-flex items-center justify-center gap-1.5 px-[18px] py-2.5 bg-[#437eeb] rounded-[8px] sm:rounded-l-none mt-2 sm:mt-0 w-full sm:w-auto font-['Poppins',Helvetica] font-medium text-defaultstyle text-sm tracking-[-0.42px] leading-[21px]">
-          Get Started
-          <ArrowRightIcon className="w-[22px] h-[22px]" />
-        </Button>
+        <a href="https://app.experthealth.ai/sign-up" target="_blank" rel="noopener noreferrer" className="no-underline w-full sm:w-auto">
+          <Button className="inline-flex items-center justify-center gap-1.5 px-[18px] py-2.5 bg-[#437eeb] rounded-[8px] sm:rounded-l-none mt-2 sm:mt-0 w-full sm:w-auto font-['Poppins',Helvetica] font-medium text-defaultstyle text-sm tracking-[-0.42px] leading-[21px]">
+            Get Started
+            <ArrowRightIcon className="w-[22px] h-[22px]" />
+          </Button>
+        </a>
       </div>
 
       <FooterSection />

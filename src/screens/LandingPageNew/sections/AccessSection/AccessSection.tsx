@@ -9,16 +9,19 @@ export const AccessSection = (): JSX.Element => {
       name: "Web",
       icon: "https://c.animaapp.com/mdq1kflvOGBUYm/img/web-icon.png",
       iconSize: "w-[67px] h-[56.75px]",
+      url: "https://experthealth.ai/sign-in",
     },
     {
       name: "Android",
       icon: "https://c.animaapp.com/mdq1kflvOGBUYm/img/android-icon.png",
       iconSize: "w-[60px] h-[60px]",
+      url: "https://play.google.com/store/apps/details?id=com.expertai.app&hl=en-US",
     },
     {
       name: "iPhone",
       icon: "https://c.animaapp.com/mdq1kflvOGBUYm/img/iphone-icon.png",
       iconSize: "w-[60px] h-[60px]",
+      url: "https://apps.apple.com/us/app/expert-ai",
     },
   ];
 
@@ -45,11 +48,13 @@ export const AccessSection = (): JSX.Element => {
                 src={platform.icon}
               />
 
-              <Button className="w-[93px] h-[35px] p-0 bg-[#437eeb] rounded flex items-center justify-center">
-                <span className="[font-family:'Poppins',Helvetica] font-bold text-white text-xs text-center tracking-[0] leading-[normal]">
-                  Access Now
-                </span>
-              </Button>
+              <a href={platform.url} target="_blank" rel="noopener noreferrer" className="no-underline w-full flex justify-center">
+                <Button className="w-[93px] h-[35px] p-0 bg-[#437eeb] rounded flex items-center justify-center">
+                  <span className="[font-family:'Poppins',Helvetica] font-bold text-white text-xs text-center tracking-[0] leading-[normal]">
+                    Access Now
+                  </span>
+                </Button>
+              </a>
             </CardContent>
           </Card>
         ))}

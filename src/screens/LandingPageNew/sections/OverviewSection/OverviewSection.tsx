@@ -26,20 +26,24 @@ export const OverviewSection = (): JSX.Element => {
       </div>
 
       <div className="flex flex-col xs:flex-row items-center gap-2 xs:gap-3 sm:gap-4 relative z-20 mt-4 xs:mt-6 sm:mt-8 w-full max-w-[200px] xs:max-w-none">
-        <Button className="w-full xs:w-[165px] h-[35px] bg-white rounded-[7px] hover:bg-gray-100">
-          <span className="font-['Poppins',Helvetica] font-semibold text-[#4d4d4d] text-xs">
-            Get 20 Free Visits Now
-          </span>
-        </Button>
+        <a href="https://app.experthealth.ai/sign-up" target="_blank" rel="noopener noreferrer" className="w-full xs:w-[165px] no-underline">
+          <Button className="w-full h-[35px] bg-white rounded-[7px] hover:bg-gray-100">
+            <span className="font-['Poppins',Helvetica] font-semibold text-[#4d4d4d] text-xs">
+              Get 20 Free Visits Now
+            </span>
+          </Button>
+        </a>
 
-        <Button
-          variant="outline"
-          className="w-[107px] h-10 border border-solid border-white rounded text-white bg-transparent hover:bg-white/10"
-        >
-          <span className="font-['Poppins',Helvetica] font-bold text-xs">
-            Schedule Demo
-          </span>
-        </Button>
+        <a href="https://calendly.com/contact-experthealth/expert-ai_-product-demo?month=2025-02" target="_blank" rel="noopener noreferrer" className="no-underline">
+          <Button
+            variant="outline"
+            className="w-[107px] h-10 border border-solid border-white rounded text-white bg-transparent hover:bg-white/10"
+          >
+            <span className="font-['Poppins',Helvetica] font-bold text-xs">
+              Schedule Demo
+            </span>
+          </Button>
+        </a>
       </div>
     </section>
   );
